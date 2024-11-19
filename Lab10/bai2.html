@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <b>
+            <label>Họ và tên:</label>
+            <br>
+            <input type="text" class="form-control">
+            <br>
+            <fieldset>
+                <legend>Giới tính: </legend>
+                <input type="radio" name="gioitinh" value="Nam">Nam
+                <input type="radio" name="gioitinh" value="Nữ">Nữ
+                <input type="radio" name="gioitinh" value="Khác">Khác
+            </fieldset>
+            <br>
+            <label>Ngày sinh:</label><br>
+            <input type="date" class="form-control">
+            <br>
+            <label>Điểm:</label><br>
+            <input type="number" min="0" max="10" step="0.1" class="form-control">
+            <br>
+            <label for="NgheNghiep">Nghề nghiệp:</label><br>
+            <input list="nghenghiep" name="NgheNghiep" id="NgheNghiep" class="form-control">
+            <datalist id="nghenghiep">
+                <option value="Kế toán">
+                <option value="Kinh doanh">
+                <option value="Giáo viên">
+                <option value="Sinh viên">
+                <option value="Kiến trúc">
+            </datalist>
+            <br>
+            <fieldset>
+                <legend>Sở thích:</legend>
+                <input type="checkbox" name="hobby" value="Thể thao">Thể thao
+                <input type="checkbox" name="hobby" value="Du lịch">Du lịch
+                <input type="checkbox" name="hobby" value="Âm nhạc">Âm nhạc
+                <input type="checkbox" name="hobby" value="Ẩm thực">Ẩm thực
+            </fieldset>
+            <br>
+            <label>Ghi chú:</label><br>
+            <textarea rows="5" cols="30" class="form-control"></textarea>
+            <hr>
+            <input type="button" value="Đăng ký" class="form-button">
+            <input type="button" value="Nhập lại" class="form-button">
+        </b>
+    </form>
+</body>
+</html>

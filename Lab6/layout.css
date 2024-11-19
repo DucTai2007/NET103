@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+}
+.container > header{
+    background-image: url(https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/440444556_940943331369845_6844466407234498625_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3Cd8WUiRsiUQ7kNvgEHby2p&_nc_ht=scontent.fsgn2-10.fna&oh=00_AYAOaeCKJ5ZqlWYj1z7PIoD4E4nOJVhrPukAGt-QzCdreg&oe=6650A416);
+    background-size: 100% 100%;
+    height: 150px;
+    padding-bottom: 20%;
+}
+.container > nav{
+    line-height: 40px;
+    background-color: rgb(18, 117, 62);
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container > article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container > aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container > footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container > nav > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+aside a{
+    text-decoration: none;
+    color: white;
+}

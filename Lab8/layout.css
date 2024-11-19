@@ -1,0 +1,148 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    position: relative; 
+}
+.container > header{
+    background-image: url(https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/440444556_940943331369845_6844466407234498625_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3Cd8WUiRsiUQ7kNvgEHby2p&_nc_ht=scontent.fsgn2-10.fna&oh=00_AYAOaeCKJ5ZqlWYj1z7PIoD4E4nOJVhrPukAGt-QzCdreg&oe=6650A416);
+    background-size: 100% 100%;
+    height: 150px;
+    padding-bottom: 20%;
+    position: relative;
+}
+header .top-right{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(18, 117, 62);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+    font-variant: small-caps;
+}
+header .top-right a{
+    text-decoration: none;
+    color: white;
+    line-height:  40px;
+    padding: 5px;
+}
+header .top-right a:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight: 500;
+}
+header .company-info{
+    width: 318px;
+    height: 70px;
+    position: absolute;
+    bottom: 80px;
+}
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: white;
+    font-size: 35px;
+    border-bottom: 1px dotted white;
+    text-shadow: 0 0 10px rgb(252, 211, 0);
+}
+header .company-info h3{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: rgb(252, 211, 0);
+    letter-spacing: 3px;
+}
+
+.container > nav{
+    line-height: 40px;
+    background-color: rgb(18, 117, 62);
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container > article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container > aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightgray;
+    float: right;
+}
+.container > footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container > nav > a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.menunav>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    text-align: center;
+}
+.menunav>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.menunav>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    padding: 0px;
+    line-height: 40px;
+}
+.menunav>ul>li>a:hover{
+    color: yellow;
+}
+.menunav ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.menunav ul ul a{
+    display: block;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+}
+.menunav>ul>li:hover>ul{
+    display: block;
+}
+.menu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.menu a{
+    background-color: orangered;
+    display: block;
+    border-bottom: 1px dotted white;
+    color:  white;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
